@@ -11,10 +11,10 @@ import Footer from "../components/Footer";
 const HomePage = () => {
   return (
     <div className="w-full relative bg-white overflow-hidden flex flex-col items-start justify-start tracking-[normal] text-left text-5xl-1 text-peru-200 font-alex-brush">
-      <div className="w-[408px] h-[800px]  flex flex-col items-center justify-center py-0 pr-5 pl-0 box-border relative max-w-full">
-        <div className="w-[100rem] my-0 mx-[!important] absolute top-0 right-[-1535.6px] flex flex-row items-end justify-start py-[63px] px-16 box-border bg-[url('/public/rectangle-7@2x.png')] bg-cover bg-no-repeat bg-[top] min-h-[717px]">
+      <div className="h-[800px] flex flex-col items-center justify-center py-0 pr-5 pl-0 box-border relative max-w-full">
+        <div className="w-[100rem] my-0 absolute top-0 right-[-1580.6px] flex flex-row items-end justify-start py-[65px] px-40 box-border bg-[url('/public/rectangle-7@2x.png')] bg-cover bg-no-repeat bg-[top] min-h-[717px]">
           <img
-            className=" relative max-h-full object-contain hidden max-w-full"
+            className="relative max-h-full object-contain hidden"
             alt=""
             src="/rectangle-7@2x.png"
           />
@@ -74,7 +74,7 @@ const HomePage = () => {
             />
           </div>
           <FrameWithMask />
-          <div className="w-[1402px] h-[81px] flex flex-row items-start justify-center py-0 px-5 box-border max-w-full text-left text-48xl-6">
+          <div className="w-full h-[81px] flex flex-row items-start justify-center py-0 px-5 box-border max-w-full text-left text-48xl-6">
             <div className="self-stretch w-80 relative tracking-[0.1em] inline-block z-[1] mq450:text-22xl mq800:text-35xl">
               GALLERY
             </div>
@@ -84,7 +84,7 @@ const HomePage = () => {
       </section>
       <HeaderContainer />
       <FrameComponent />
-      <FrameContainer />
+      {/* <FrameContainer /> */}
       <Insta />
       <img
         className="w-[360px] h-[307.4px] absolute my-0 mx-[!important] top-[1335px] right-[-157px] object-contain z-[3]"

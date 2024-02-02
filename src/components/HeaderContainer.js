@@ -1,7 +1,7 @@
 const HeaderContainer = () => {
   return (
     <section className="self-stretch flex flex-row items-start justify-end py-0 pr-5 pl-0 box-border min-h-[270px] max-w-full shrink-0 text-center text-49xl-2 text-black font-cinzel-decorative">
-      <div className="w-[1540px] flex flex-row items-end justify-between gap-[20px] max-w-[102%] shrink-0 mq1125:flex-wrap">
+      <div className="w-full flex flex-row items-end justify-between gap-[20px] max-w-[102%] shrink-0 mq1125:flex-wrap">
         <div className="h-[226px] w-[229px] flex flex-col items-start justify-start py-0 pr-1.5 pl-0 box-border">
           <img
             className="self-stretch h-[134.4px] relative max-w-full overflow-hidden shrink-0 object-contain"

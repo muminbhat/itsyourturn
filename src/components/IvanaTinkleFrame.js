@@ -1,6 +1,6 @@
 const IvanaTinkleFrame = () => {
   return (
-    <div className="self-stretch flex-1 rounded-br-[3rem] bg-white shadow-[3.3px_0px_15.6px_rgba(0,_0,_0,_0.25)] flex flex-col items-center justify-start pt-[63px] pb-[73px] pr-5 pl-7 box-border gap-[80px] max-w-full z-[2] text-left text-7xl-8 text-black font-cinzel-decorative mq450:gap-[80px] mq450:pt-[27px] mq450:pb-[31px] mq450:box-border mq1125:pt-[41px] mq1125:pb-[47px] mq1125:box-border">
+    <div className="self-stretch flex-1 rounded-br-[3rem] bg-white shadow-[3.3px_0px_15.6px_rgba(0,_0,_0,_0.25)] flex flex-col items-center justify-start pt-[63px] pb-[73px] pr-10 pl-7 box-border gap-[80px] max-w-full z-[2] text-left text-7xl-8 text-black font-cinzel-decorative mq450:gap-[80px] mq450:pt-[27px] mq450:pb-[31px] mq450:box-border mq1125:pt-[41px] mq1125:pb-[47px] mq1125:box-border">
       <img
         className="w-[388.4px] h-[886.8px] relative hidden max-w-full"
         alt=""

@@ -1,6 +1,6 @@
 const InstaFrame = () => {
   return (
-    <section className="self-stretch flex flex-row items-start justify-end py-0 px-0 box-border max-w-full shrink-0 text-left text-36xl-1 text-white font-cormorant-garamond">
+    <section className="flex justify-center items-center px-16 py-12 w-full bg-black max-md:px-5 max-md:max-w-full self-stretch flex-row box-border max-w-full shrink-0 text-left text-36xl-1 text-white font-cormorant-garamond">
       <div className="w-[1646px] flex flex-row items-start justify-start py-0 px-0 box-border max-w-[107%] shrink-0">
         <div className="w-[1765px] bg-black flex flex-col items-center justify-start pt-[38px] pb-[52px] pr-[134px] pl-5 box-border gap-[53px] max-w-[107%] shrink-0 z-[2] mq450:gap-[53px] mq450:pr-5 mq450:box-border mq800:pt-[25px] mq800:pr-[67px] mq800:pb-[34px] mq800:box-border">
           <img

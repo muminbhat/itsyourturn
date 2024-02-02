@@ -1,46 +1,10 @@
 const Insta = () => {
   return (
-    <section className="self-stretch h-[257.3px] relative">
-      <img
-        className="absolute h-full top-[0px] bottom-[0px] left-[0px] max-h-full w-[257.3px] object-cover"
-        loading="eager"
-        alt=""
-        src="/rectangle-173@2x.png"
+    <img
+        loading="lazy"
+        srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/5470e3c6264f5f7282d347a5111cf3e72fa15eeaa8fdac096ac2ff45168df60d?apiKey=5832d9011e934559997a42b2b3992b06&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/5470e3c6264f5f7282d347a5111cf3e72fa15eeaa8fdac096ac2ff45168df60d?apiKey=5832d9011e934559997a42b2b3992b06&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/5470e3c6264f5f7282d347a5111cf3e72fa15eeaa8fdac096ac2ff45168df60d?apiKey=5832d9011e934559997a42b2b3992b06&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/5470e3c6264f5f7282d347a5111cf3e72fa15eeaa8fdac096ac2ff45168df60d?apiKey=5832d9011e934559997a42b2b3992b06&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/5470e3c6264f5f7282d347a5111cf3e72fa15eeaa8fdac096ac2ff45168df60d?apiKey=5832d9011e934559997a42b2b3992b06&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/5470e3c6264f5f7282d347a5111cf3e72fa15eeaa8fdac096ac2ff45168df60d?apiKey=5832d9011e934559997a42b2b3992b06&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/5470e3c6264f5f7282d347a5111cf3e72fa15eeaa8fdac096ac2ff45168df60d?apiKey=5832d9011e934559997a42b2b3992b06&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/5470e3c6264f5f7282d347a5111cf3e72fa15eeaa8fdac096ac2ff45168df60d?apiKey=5832d9011e934559997a42b2b3992b06&"
+        className="mt-24 w-full aspect-[5.88] max-md:mt-10 max-md:max-w-full"
       />
-      <img
-        className="absolute h-full top-[0px] bottom-[0px] left-[257.3px] max-h-full w-[257.3px] object-cover"
-        loading="eager"
-        alt=""
-        src="/rectangle-174@2x.png"
-      />
-      <img
-        className="absolute h-full top-[0px] bottom-[0px] left-[514.7px] max-h-full w-[257.3px] object-cover"
-        loading="eager"
-        alt=""
-        src="/rectangle-175@2x.png"
-      />
-      <div className="absolute h-full top-[0px] bottom-[0px] left-[514.7px] bg-peru-300 w-[257.3px] z-[1]">
-        <div className="absolute top-[0px] left-[0px] bg-peru-300 w-full h-full hidden" />
-      </div>
-      <img
-        className="absolute h-full top-[0px] bottom-[0px] left-[772px] max-h-full w-[257.3px] object-cover"
-        loading="eager"
-        alt=""
-        src="/rectangle-176@2x.png"
-      />
-      <img
-        className="absolute h-full top-[0px] bottom-[0px] left-[1029.3px] max-h-full w-[257.3px] object-cover"
-        loading="eager"
-        alt=""
-        src="/rectangle-177@2x.png"
-      />
-      <img
-        className="absolute h-full top-[0px] bottom-[0px] left-[1286.7px] max-h-full w-[257.3px] object-cover"
-        loading="eager"
-        alt=""
-        src="/rectangle-178@2x.png"
-      />
-    </section>
   );
 };
 

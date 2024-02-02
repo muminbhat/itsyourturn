@@ -24,7 +24,7 @@ function App() {
 
     switch (pathname) {
       case "/":
-        title = "";
+        title = "Its Your Turn - Your Personal Dream Maker";
         metaDescription = "";
         break;
     }
